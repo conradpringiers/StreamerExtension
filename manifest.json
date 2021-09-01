@@ -1,0 +1,22 @@
+{
+  "name": "Your Extension",
+  "description": "Your Description",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "/images/ON.png"
+    }
+  },
+  "icons": {
+      "32": "/images/OFF.png"
+  },
+  "permissions": [
+    "alarms",
+    "notifications"
+  ]
+}
